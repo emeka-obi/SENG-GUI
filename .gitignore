@@ -1,0 +1,24 @@
+#pycache
+*.pyc
+
+
+#configs
+*.cfg
+
+
+
+#LOG
+*.LOG
+
+#swp
+*.swp
+.DS_Store
+
+
+
+
+#virtual environment
+sweng/
+
+
+

@@ -1,0 +1,78 @@
+{% extends "base_table.html" %}
+
+{% block content %}
+
+
+<h2 class="title">
+  Welcome, {{ name }}!
+</h2>
+ <div><img src="data:image/png;base64,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" width ='100' height ='100'/>
+            <h1 class = "pt-6 pb-3">Course Data Semester Project</h1>
+        </div>  
+        <p class="lead alert alert-warning">A complete list of all the Data available.</p>
+
+  <table id="data" class="table table-striped">
+    <thead>
+      <tr>
+            <th>Code</th>
+            <th>TAMUK</th>
+            <th>Subject</th>
+            <th>Course</th>
+            <th>CRN</th>
+            <th>Section</th>
+            <th>Credit</th>
+            <th>LD_HC</th>
+            <th>UD_HC</th>
+            <th>MS_HC</th>
+            <th>DRR_HC</th>
+            <th>DRP_HC</th>
+            <th>Year</th>
+      </tr>
+    </thead>
+    <tbody>
+        {% for cd in coursedata %}
+        <tr>
+            <td>{{ cd.Code }}</td>
+            <td>{{ cd.TAMUK }}</td>
+            <td>{{ cd.Subject }}</td>
+            <td>{{ cd.Course }}</td>
+            <td>{{ cd.CRN}} </td>
+            <td>{{ cd.Section}}</td>
+            <td>{{ cd.Credit}}</td>
+            <td>{{ cd.LD_HC}}</td>
+            <td>{{ cd.UD_HC}}</td>
+            <td>{{ cd.MS_HC}}</td>
+            <td>{{ cd.DRR_HC}}</td>
+            <td>{{ cd.DRP_HC}}</td>
+            <td>{{ cd.Year}}</td>  
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+{% endblock %}
+<!-- This script handles pagination, searchable, and orderable functionality in the table -->
+{% block scripts %}
+  <script>
+    $(document).ready(function () {
+      $('#data').DataTable({
+        columns: [
+          null,
+          null,
+          {orderable: false, searchable: true},
+          {orderable: false, searchable: true},
+          {orderable: false, searchable: true},
+          {orderable: true, searchable: false},
+          {orderable: false, searchable: false},
+          {orderable: false, searchable: false},
+          {orderable: false, searchable: false},
+          {orderable: false, searchable: false},
+          {orderable: false, searchable: false},
+          {orderable: false, searchable: false},
+          null],
+      });
+    });
+  </script>
+{% endblock %}

@@ -1,0 +1,21 @@
+#pycache
+*.pyc
+
+
+
+
+#LOG
+*.LOG
+
+
+#swp
+*.swp
+.DS_Store
+
+#gitignore
+.gitignore
+
+#markdown files
+*.md
+
+
