@@ -21,10 +21,10 @@ computations based on the data, and presentation of the results will be done thr
 </table>
 
 ## Technologies
-* [Python 3.9.5](#https://www.python.org/downloads/) 
-* [Flask 2.0.1](#https://flask.palletsprojects.com/en/2.0.x/) and its dependences. Flask is the python library that will be used to creae the API. Its dependences will be automatically installed upon the installation of flask
-* [pip 21.1.2](#https://pypi.org/project/pip/) - simple package installer for python
-* [Docker](#https://hub.docker.com/editions/community/docker-ce-desktop-window) - An open source containerization platform that allows packaging of application into containers
+* [Python 3.9.5](https://www.python.org/downloads/) 
+* [Flask 2.0.1](https://flask.palletsprojects.com/en/2.0.x/) and its dependences. Flask is the python library that will be used to creae the API. Its dependences will be automatically installed upon the installation of flask
+* [pip 21.1.2](https://pypi.org/project/pip/) - simple package installer for python
+* [Docker](https://hub.docker.com/editions/community/docker-ce-desktop-window) - An open source containerization platform that allows packaging of application into containers
 
 
 ## Local Setup
