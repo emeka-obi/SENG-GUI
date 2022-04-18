@@ -44,7 +44,7 @@ computations based on the data, and presentation of the results will be done thr
      ```
 8. To run the app through flask, type the following into your command line:
       ```
-      export FLASK_APP=hello.py
+      export FLASK_APP=project
       export FLASK_ENV=development
       flask run -p 5001
       ```
